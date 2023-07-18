@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>apple.com</title>
+        <link rel="stylesheet" href="styles-body.css">
+        <link rel="stylesheet" href="styles-header.css">
+        <link rel="stylesheet" href="section-mac.css">
+        <link rel="stylesheet" href="card-style.css">
+        <link rel="stylesheet" href="sliders.css">
+        <link rel="stylesheet" href="media.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <script>
+            function toggleMenu(event) {
+           event.preventDefault();
+           var dropdownMenu = event.target.nextElementSibling;
+            dropdownMenu.classList.toggle('show');
+        }
+        </script>
+    </head>
+<body>
+    <header>
+        <ul class="header">
+            <li>
+                <i class="fab fa-apple"></i>
+                <a href="https://www.apple.com/store" class="dropdown-link">Store</a>
+                <div class="dropdown-menu" onmouseenter="cancelHide()" onmouseleave="hideMenu()">
+                  <span>shop</span>
+                  <ul class="drop">
+                    <li><a href="https://www.apple.com/store">Shop the Latest</a></li>
+                    <li><a href="https://www.apple.com/shop/buy-mac">Mac</a></li>
+                    <li><a href="https://www.apple.com/shop/buy-ipad">iPad</a></li>
+                    <li><a href="https://www.apple.com/shop/buy-iphone">iPhone</a></li>
+                    <li><a href="https://www.apple.com/shop/buy-watch">Apple Watch</a></li>
+                    <li><a href="https://www.apple.com/shop/accessories/all">Accessories</a></li>
+                    <ul class="drop-two">
+                        <span>Quick Links</span>
+                        <li><a href="https://www.apple.com/retail/">Find a Store</a></li>
+                        <li><a href="https://secure6.store.apple.com/shop/signIn/orders?ssi=1AAABiUTspvkg40gEXZv_bdoEPBfj5H9EGs6UYgI8y2mgpuFu8lLiPCQAAAAxaHR0cHM6Ly9zZWN1cmU2LnN0b3JlLmFwcGxlLmNvbS9zaG9wL29yZGVyL2xpc3R8fAACAU5tdNfKcpbuV9NqdBBCBaptKkbp8og_CtWNBSXg57Q5">Order Status</a></li>
+                        <li><a href="https://www.apple.com/shop/trade-in">Apple Trade in</a></li>
+                        <li><a href="https://www.apple.com/shop/browse/financing">Financing</a></li>
+                        <li><a href="https://www.apple.com/us-edu/shop/back-to-school">College Student Offer</a></li>
+                    </ul>
+                    <ul class="drop-three">
+                        <span>Shop Special Stores</span>
+                        <li><a href="https://www.apple.com/shop/refurbished">Certified Refurbished</a></li>
+                        <li><a href="https://www.apple.com/us-edu/store">Education</a></li>
+                        <li><a href="https://www.apple.com/retail/business/">Business</a></li>
+                        <li><a href="https://www.apple.com/shop/browse/home/veterans_military">Veterans and Military</a></li>
+                        <li><a href="https://www.apple.com/r/store/government/">Government</a></li>
+                    </ul>
+                  </ul>
+                </div>
+            </li>
+            <li><a href="https://www.apple.com/mac/" class="dropdown-link">Mac</a>
+                <div class="dropdown-menu" onmouseenter="cancelHide()" onmouseleave="hideMenu()">
+                    <span>shop</span>
+                    <ul class="drop">
+                      <li><a href="https://www.apple.com/store">Shop the Latest</a></li>
+                      <li><a href="https://www.apple.com/shop/buy-mac">Mac</a></li>
+                      <li><a href="https://www.apple.com/shop/buy-ipad">iPad</a></li>
+                      <li><a href="https://www.apple.com/shop/buy-iphone">iPhone</a></li>
+                      <li><a href="https://www.apple.com/shop/buy-watch">Apple Watch</a></li>
+                      <li><a href="https://www.apple.com/shop/accessories/all">Accessories</a></li>
+                      <ul class="drop-two">
+                          <span>Quick Links</span>
+                          <li><a href="https://www.apple.com/retail/">Find a Store</a></li>
+                          <li><a href="https://secure6.store.apple.com/shop/signIn/orders?ssi=1AAABiUTspvkg40gEXZv_bdoEPBfj5H9EGs6UYgI8y2mgpuFu8lLiPCQAAAAxaHR0cHM6Ly9zZWN1cmU2LnN0b3JlLmFwcGxlLmNvbS9zaG9wL29yZGVyL2xpc3R8fAACAU5tdNfKcpbuV9NqdBBCBaptKkbp8og_CtWNBSXg57Q5">Order Status</a></li>
+                          <li><a href="https://www.apple.com/shop/trade-in">Apple Trade in</a></li>
+                          <li><a href="https://www.apple.com/shop/browse/financing">Financing</a></li>
+                          <li><a href="https://www.apple.com/us-edu/shop/back-to-school">College Student Offer</a></li>
+                      </ul>
+                      <ul class="drop-three">
+                          <span>Shop Special Stores</span>
+                          <li><a href="https://www.apple.com/shop/refurbished">Certified Refurbished</a></li>
+                          <li><a href="https://www.apple.com/us-edu/store">Education</a></li>
+                          <li><a href="https://www.apple.com/retail/business/">Business</a></li>
+                          <li><a href="https://www.apple.com/shop/browse/home/veterans_military">Veterans and Military</a></li>
+                          <li><a href="https://www.apple.com/r/store/government/">Government</a></li>
+                      </ul>
+                    </ul>
+                  </div>
+            </li>
+            <li><a href="https://www.apple.com/ipad/" class="dropdown-link">iPad</a>
+                <div class="dropdown-menu" onmouseenter="cancelHide()" onmouseleave="hideMenu()">
+                    <span>shop</span>
+                    <ul class="drop">
+                      <li><a href="https://www.apple.com/store">Shop the Latest</a></li>
+                      <li><a href="https://www.apple.com/shop/buy-mac">Mac</a></li>
+                      <li><a href="https://www.apple.com/shop/buy-ipad">iPad</a></li>
+                      <li><a href="https://www.apple.com/shop/buy-iphone">iPhone</a></li>
+                      <li><a href="https://www.apple.com/shop/buy-watch">Apple Watch</a></li>
+                      <li><a href="https://www.apple.com/shop/accessories/all">Accessories</a></li>
+                      <ul class="drop-two">
+                          <span>Quick Links</span>
+                          <li><a href="https://www.apple.com/retail/">Find a Store</a></li>
+                          <li><a href="https://secure6.store.apple.com/shop/signIn/orders?ssi=1AAABiUTspvkg40gEXZv_bdoEPBfj5H9EGs6UYgI8y2mgpuFu8lLiPCQAAAAxaHR0cHM6Ly9zZWN1cmU2LnN0b3JlLmFwcGxlLmNvbS9zaG9wL29yZGVyL2xpc3R8fAACAU5tdNfKcpbuV9NqdBBCBaptKkbp8og_CtWNBSXg57Q5">Order Status</a></li>
+                          <li><a href="https://www.apple.com/shop/trade-in">Apple Trade in</a></li>
+                          <li><a href="https://www.apple.com/shop/browse/financing">Financing</a></li>
+                          <li><a href="https://www.apple.com/us-edu/shop/back-to-school">College Student Offer</a></li>
+                      </ul>
+                      <ul class="drop-three">
+                          <span>Shop Special Stores</span>
+                          <li><a href="https://www.apple.com/shop/refurbished">Certified Refurbished</a></li>
+                          <li><a href="https://www.apple.com/us-edu/store">Education</a></li>
+                          <li><a href="https://www.apple.com/retail/business/">Business</a></li>
+                          <li><a href="https://www.apple.com/shop/browse/home/veterans_military">Veterans and Military</a></li>
+                          <li><a href="https://www.apple.com/r/store/government/">Government</a></li>
+                      </ul>
+                    </ul>
+                  </div>
+            </li>
+            <li><a href="https://www.apple.com/watch/" class="dropdown-link">Watch</a>
+                <div class="dropdown-menu" onmouseenter="cancelHide()" onmouseleave="hideMenu()">
+                    <span>shop</span>
+                    <ul class="drop">
+                      <li><a href="https://www.apple.com/store">Shop the Latest</a></li>
+                      <li><a href="https://www.apple.com/shop/buy-mac">Mac</a></li>
+                      <li><a href="https://www.apple.com/shop/buy-ipad">iPad</a></li>
+                      <li><a href="https://www.apple.com/shop/buy-iphone">iPhone</a></li>
+                      <li><a href="https://www.apple.com/shop/buy-watch">Apple Watch</a></li>
+                      <li><a href="https://www.apple.com/shop/accessories/all">Accessories</a></li>
+                      <ul class="drop-two">
+                          <span>Quick Links</span>
+                          <li><a href="https://www.apple.com/retail/">Find a Store</a></li>
+                          <li><a href="https://secure6.store.apple.com/shop/signIn/orders?ssi=1AAABiUTspvkg40gEXZv_bdoEPBfj5H9EGs6UYgI8y2mgpuFu8lLiPCQAAAAxaHR0cHM6Ly9zZWN1cmU2LnN0b3JlLmFwcGxlLmNvbS9zaG9wL29yZGVyL2xpc3R8fAACAU5tdNfKcpbuV9NqdBBCBaptKkbp8og_CtWNBSXg57Q5">Order Status</a></li>
+                          <li><a href="https://www.apple.com/shop/trade-in">Apple Trade in</a></li>
+                          <li><a href="https://www.apple.com/shop/browse/financing">Financing</a></li>
+                          <li><a href="https://www.apple.com/us-edu/shop/back-to-school">College Student Offer</a></li>
+                      </ul>
+                      <ul class="drop-three">
+                          <span>Shop Special Stores</span>
+                          <li><a href="https://www.apple.com/shop/refurbished">Certified Refurbished</a></li>
+                          <li><a href="https://www.apple.com/us-edu/store">Education</a></li>
+                          <li><a href="https://www.apple.com/retail/business/">Business</a></li>
+                          <li><a href="https://www.apple.com/shop/browse/home/veterans_military">Veterans and Military</a></li>
+                          <li><a href="https://www.apple.com/r/store/government/">Government</a></li>
+                      </ul>
+                    </ul>
+                  </div>
+            </li>
+
+            <li><a href="https://www.apple.com/apple-vision-pro/">Vision</a></li>
+            <li><a href="https://www.apple.com/airpods/" class="dropdown-link">AirPods</a>
+                <div class="dropdown-menu" onmouseenter="cancelHide()" onmouseleave="hideMenu()">
+                    <span>shop</span>
+                    <ul class="drop">
+                      <li><a href="https://www.apple.com/store">Shop the Latest</a></li>
+                      <li><a href="https://www.apple.com/shop/buy-mac">Mac</a></li>
+                      <li><a href="https://www.apple.com/shop/buy-ipad">iPad</a></li>
+                      <li><a href="https://www.apple.com/shop/buy-iphone">iPhone</a></li>
+                      <li><a href="https://www.apple.com/shop/buy-watch">Apple Watch</a></li>
+                      <li><a href="https://www.apple.com/shop/accessories/all">Accessories</a></li>
+                      <ul class="drop-two">
+                          <span>Quick Links</span>
+                          <li><a href="https://www.apple.com/retail/">Find a Store</a></li>
+                          <li><a href="https://secure6.store.apple.com/shop/signIn/orders?ssi=1AAABiUTspvkg40gEXZv_bdoEPBfj5H9EGs6UYgI8y2mgpuFu8lLiPCQAAAAxaHR0cHM6Ly9zZWN1cmU2LnN0b3JlLmFwcGxlLmNvbS9zaG9wL29yZGVyL2xpc3R8fAACAU5tdNfKcpbuV9NqdBBCBaptKkbp8og_CtWNBSXg57Q5">Order Status</a></li>
+                          <li><a href="https://www.apple.com/shop/trade-in">Apple Trade in</a></li>
+                          <li><a href="https://www.apple.com/shop/browse/financing">Financing</a></li>
+                          <li><a href="https://www.apple.com/us-edu/shop/back-to-school">College Student Offer</a></li>
+                      </ul>
+                      <ul class="drop-three">
+                          <span>Shop Special Stores</span>
+                          <li><a href="https://www.apple.com/shop/refurbished">Certified Refurbished</a></li>
+                          <li><a href="https://www.apple.com/us-edu/store">Education</a></li>
+                          <li><a href="https://www.apple.com/retail/business/">Business</a></li>
+                          <li><a href="https://www.apple.com/shop/browse/home/veterans_military">Veterans and Military</a></li>
+                          <li><a href="https://www.apple.com/r/store/government/">Government</a></li>
+                      </ul>
+                    </ul>
+                  </div>
+            </li>
+            <li><a href="https://www.apple.com/tv-home/" class="dropdown-link">TV & Home</a>
+                <div class="dropdown-menu" onmouseenter="cancelHide()" onmouseleave="hideMenu()">
+                    <span>shop</span>
+                    <ul class="drop">
+                      <li><a href="https://www.apple.com/store">Shop the Latest</a></li>
+                      <li><a href="https://www.apple.com/shop/buy-mac">Mac</a></li>
+                      <li><a href="https://www.apple.com/shop/buy-ipad">iPad</a></li>
+                      <li><a href="https://www.apple.com/shop/buy-iphone">iPhone</a></li>
+                      <li><a href="https://www.apple.com/shop/buy-watch">Apple Watch</a></li>
+                      <li><a href="https://www.apple.com/shop/accessories/all">Accessories</a></li>
+                      <ul class="drop-two">
+                          <span>Quick Links</span>
+                          <li><a href="https://www.apple.com/retail/">Find a Store</a></li>
+                          <li><a href="https://secure6.store.apple.com/shop/signIn/orders?ssi=1AAABiUTspvkg40gEXZv_bdoEPBfj5H9EGs6UYgI8y2mgpuFu8lLiPCQAAAAxaHR0cHM6Ly9zZWN1cmU2LnN0b3JlLmFwcGxlLmNvbS9zaG9wL29yZGVyL2xpc3R8fAACAU5tdNfKcpbuV9NqdBBCBaptKkbp8og_CtWNBSXg57Q5">Order Status</a></li>
+                          <li><a href="https://www.apple.com/shop/trade-in">Apple Trade in</a></li>
+                          <li><a href="https://www.apple.com/shop/browse/financing">Financing</a></li>
+                          <li><a href="https://www.apple.com/us-edu/shop/back-to-school">College Student Offer</a></li>
+                      </ul>
+                      <ul class="drop-three">
+                          <span>Shop Special Stores</span>
+                          <li><a href="https://www.apple.com/shop/refurbished">Certified Refurbished</a></li>
+                          <li><a href="https://www.apple.com/us-edu/store">Education</a></li>
+                          <li><a href="https://www.apple.com/retail/business/">Business</a></li>
+                          <li><a href="https://www.apple.com/shop/browse/home/veterans_military">Veterans and Military</a></li>
+                          <li><a href="https://www.apple.com/r/store/government/">Government</a></li>
+                      </ul>
+                    </ul>
+                  </div>
+            </li>
+            <li><a href="https://www.apple.com/services/" class="dropdown-link">Entertainment</a>
+                <div class="dropdown-menu" onmouseenter="cancelHide()" onmouseleave="hideMenu()">
+                    <span>shop</span>
+                    <ul class="drop">
+                      <li><a href="https://www.apple.com/store">Shop the Latest</a></li>
+                      <li><a href="https://www.apple.com/shop/buy-mac">Mac</a></li>
+                      <li><a href="https://www.apple.com/shop/buy-ipad">iPad</a></li>
+                      <li><a href="https://www.apple.com/shop/buy-iphone">iPhone</a></li>
+                      <li><a href="https://www.apple.com/shop/buy-watch">Apple Watch</a></li>
+                      <li><a href="https://www.apple.com/shop/accessories/all">Accessories</a></li>
+                      <ul class="drop-two">
+                          <span>Quick Links</span>
+                          <li><a href="https://www.apple.com/retail/">Find a Store</a></li>
+                          <li><a href="https://secure6.store.apple.com/shop/signIn/orders?ssi=1AAABiUTspvkg40gEXZv_bdoEPBfj5H9EGs6UYgI8y2mgpuFu8lLiPCQAAAAxaHR0cHM6Ly9zZWN1cmU2LnN0b3JlLmFwcGxlLmNvbS9zaG9wL29yZGVyL2xpc3R8fAACAU5tdNfKcpbuV9NqdBBCBaptKkbp8og_CtWNBSXg57Q5">Order Status</a></li>
+                          <li><a href="https://www.apple.com/shop/trade-in">Apple Trade in</a></li>
+                          <li><a href="https://www.apple.com/shop/browse/financing">Financing</a></li>
+                          <li><a href="https://www.apple.com/us-edu/shop/back-to-school">College Student Offer</a></li>
+                      </ul>
+                      <ul class="drop-three">
+                          <span>Shop Special Stores</span>
+                          <li><a href="https://www.apple.com/shop/refurbished">Certified Refurbished</a></li>
+                          <li><a href="https://www.apple.com/us-edu/store">Education</a></li>
+                          <li><a href="https://www.apple.com/retail/business/">Business</a></li>
+                          <li><a href="https://www.apple.com/shop/browse/home/veterans_military">Veterans and Military</a></li>
+                          <li><a href="https://www.apple.com/r/store/government/">Government</a></li>
+                      </ul>
+                    </ul>
+                  </div>
+            </li>
+            <li><a href="https://www.apple.com/shop/accessories/all" class="dropdown-link">Accessories</a>
+                <div class="dropdown-menu" onmouseenter="cancelHide()" onmouseleave="hideMenu()">
+                    <span>shop</span>
+                    <ul class="drop">
+                      <li><a href="https://www.apple.com/store">Shop the Latest</a></li>
+                      <li><a href="https://www.apple.com/shop/buy-mac">Mac</a></li>
+                      <li><a href="https://www.apple.com/shop/buy-ipad">iPad</a></li>
+                      <li><a href="https://www.apple.com/shop/buy-iphone">iPhone</a></li>
+                      <li><a href="https://www.apple.com/shop/buy-watch">Apple Watch</a></li>
+                      <li><a href="https://www.apple.com/shop/accessories/all">Accessories</a></li>
+                      <ul class="drop-two">
+                          <span>Quick Links</span>
+                          <li><a href="https://www.apple.com/retail/">Find a Store</a></li>
+                          <li><a href="https://secure6.store.apple.com/shop/signIn/orders?ssi=1AAABiUTspvkg40gEXZv_bdoEPBfj5H9EGs6UYgI8y2mgpuFu8lLiPCQAAAAxaHR0cHM6Ly9zZWN1cmU2LnN0b3JlLmFwcGxlLmNvbS9zaG9wL29yZGVyL2xpc3R8fAACAU5tdNfKcpbuV9NqdBBCBaptKkbp8og_CtWNBSXg57Q5">Order Status</a></li>
+                          <li><a href="https://www.apple.com/shop/trade-in">Apple Trade in</a></li>
+                          <li><a href="https://www.apple.com/shop/browse/financing">Financing</a></li>
+                          <li><a href="https://www.apple.com/us-edu/shop/back-to-school">College Student Offer</a></li>
+                      </ul>
+                      <ul class="drop-three">
+                          <span>Shop Special Stores</span>
+                          <li><a href="https://www.apple.com/shop/refurbished">Certified Refurbished</a></li>
+                          <li><a href="https://www.apple.com/us-edu/store">Education</a></li>
+                          <li><a href="https://www.apple.com/retail/business/">Business</a></li>
+                          <li><a href="https://www.apple.com/shop/browse/home/veterans_military">Veterans and Military</a></li>
+                          <li><a href="https://www.apple.com/r/store/government/">Government</a></li>
+                      </ul>
+                    </ul>
+                  </div>
+            </li>
+            <li><a href="https://support.apple.com/" class="dropdown-link">Support</a>
+                <div class="dropdown-menu" onmouseenter="cancelHide()" onmouseleave="hideMenu()">
+                    <span>shop</span>
+                    <ul class="drop">
+                      <li><a href="https://www.apple.com/store">Shop the Latest</a></li>
+                      <li><a href="https://www.apple.com/shop/buy-mac">Mac</a></li>
+                      <li><a href="https://www.apple.com/shop/buy-ipad">iPad</a></li>
+                      <li><a href="https://www.apple.com/shop/buy-iphone">iPhone</a></li>
+                      <li><a href="https://www.apple.com/shop/buy-watch">Apple Watch</a></li>
+                      <li><a href="https://www.apple.com/shop/accessories/all">Accessories</a></li>
+                      <ul class="drop-two">
+                          <span>Quick Links</span>
+                          <li><a href="https://www.apple.com/retail/">Find a Store</a></li>
+                          <li><a href="https://secure6.store.apple.com/shop/signIn/orders?ssi=1AAABiUTspvkg40gEXZv_bdoEPBfj5H9EGs6UYgI8y2mgpuFu8lLiPCQAAAAxaHR0cHM6Ly9zZWN1cmU2LnN0b3JlLmFwcGxlLmNvbS9zaG9wL29yZGVyL2xpc3R8fAACAU5tdNfKcpbuV9NqdBBCBaptKkbp8og_CtWNBSXg57Q5">Order Status</a></li>
+                          <li><a href="https://www.apple.com/shop/trade-in">Apple Trade in</a></li>
+                          <li><a href="https://www.apple.com/shop/browse/financing">Financing</a></li>
+                          <li><a href="https://www.apple.com/us-edu/shop/back-to-school">College Student Offer</a></li>
+                      </ul>
+                      <ul class="drop-three">
+                          <span>Shop Special Stores</span>
+                          <li><a href="https://www.apple.com/shop/refurbished">Certified Refurbished</a></li>
+                          <li><a href="https://www.apple.com/us-edu/store">Education</a></li>
+                          <li><a href="https://www.apple.com/retail/business/">Business</a></li>
+                          <li><a href="https://www.apple.com/shop/browse/home/veterans_military">Veterans and Military</a></li>
+                          <li><a href="https://www.apple.com/r/store/government/">Government</a></li>
+                      </ul>
+                    </ul>
+                  </div>
+            </li>
+            <li><i class="fas fa-search"></i></li>
+            <li><i class="fas fa-shopping-bag"></i></li>
+        </ul>
+        <p class="span">
+            Get $200–$640 in credit toward iPhone 14 or iPhone 14 Pro when you trade in iPhone 11 or higher.1 <a href="https://www.apple.com/shop/buy-iphone">Shop iPhone ></a>
+        </p>
+    </header>
+    <section class="MacBook">
+        <article class="mac">
+            <h1 class="title-mac">MacBook Air 15"</h1>
+            <p class="paragraph-link">impressively big. impossibly thin.</p>
+            <ul class="links">
+                <li><a href="https://www.apple.com/macbook-air-13-and-15-m2/">Learn more ></a></li>
+                <li><a href="https://www.apple.com/shop/buy-mac/macbook-air/15-inch-m2">Buy ></a></li>
+            </ul>
+            <img class="mac-picture" src="Mac.jpg">
+        </article>
+        <article class="mac">
+            <h1 class="title-mac">Save on Mac or iPad for college.</h1>
+            <p class="paragraph-link">Plus get a gift card up to $150.<sup>2</sup></p>
+            <ul class="links">
+                <li><a href="https://www.apple.com/us-edu/shop/back-to-school">Shop now ></a></li>
+            </ul>
+            <img class="mac-picture" src="college.jpg">
+        </article>
+        <article class="mac-iphone">
+            <h1 class="title-mac">iPhone 14 Pro</h1>
+            <p class="paragraph-link">Pro. Beyond.</p>
+            <ul class="links">
+                <li><a href="https://www.apple.com/macbook-air-13-and-15-m2/">Learn more ></a></li>
+                <li><a href="https://www.apple.com/shop/buy-mac/macbook-air/15-inch-m2">Buy ></a></li>
+            </ul>
+            <img class="mac-picture-iphone" src="77.jpg">
+        </article>
+    </section>
+    <div class="card-container">
+        <div class="card">
+          <h2 class="title-mac">iPhone 14</h2>
+          <p class="paragraph-link">Wonderfull.</p>
+          <ul class="links">
+            <li><a href="https://www.apple.com/macbook-air-13-and-15-m2/">Learn more ></a></li>
+            <li><a href="https://www.apple.com/shop/buy-mac/macbook-air/15-inch-m2">Buy ></a></li>
+        </ul>
+        <img class="card-picture" src="i14.png">
+        </div>
+        <div class="card a">
+          <h2 class="title-mac">Vision Pro</h2>
+          <p class="paragraph-link">Welcome to the era of spatial computing.</p>
+          <ul class="links">
+            <li><a href="https://www.apple.com/macbook-air-13-and-15-m2/">Learn more ></a></li>
+          </ul>
+        </div>
+        <div class="card b">
+          <h2 class="title-mac">Watch</h2>
+          <span class="watch">8 series</span>
+          <p class="paragraph-link">A healthy leap ahead.</p>
+          <ul class="links">
+            <li><a href="https://www.apple.com/macbook-air-13-and-15-m2/">Learn more ></a></li>
+            <li><a href="https://www.apple.com/shop/buy-mac/macbook-air/15-inch-m2">Buy ></a></li>
+        </ul>
+        <img class="mac-picture-watch" src="watch.png">
+        </div>
+        <div class="card b">
+            <h2 class="title-mac">iPad Pro</h2>
+            <p class="paragraph-link">Supercharged by.</p>
+            <ul class="links">
+              <li><a href="https://www.apple.com/macbook-air-13-and-15-m2/">Learn more ></a></li>
+              <li><a href="https://www.apple.com/shop/buy-mac/macbook-air/15-inch-m2">Buy ></a></li>
+          </ul>
+          <img class="mac-picture-watch" src="iPad.jpg">
+        </div>
+        <div class="card">
+            <h2 class="title-mac">Fitness+</h2>
+            <p class="paragraph-link">From HIIT Yoga</p>
+            <ul class="links">
+              <li><a href="https://www.apple.com/macbook-air-13-and-15-m2/">Learn more ></a></li>
+              <li><a href="https://www.apple.com/shop/buy-mac/macbook-air/15-inch-m2">Buy ></a></li>
+          </ul>
+          <img class="card-picture" src="fitness.png">
+        </div>
+        <div class="card">
+            <h2 class="title-mac">Card</h2>
+            <p class="paragraph-link">Get up to 3% Daily Cash Back</p>
+            <ul class="links">
+              <li><a href="https://www.apple.com/macbook-air-13-and-15-m2/">Learn more ></a></li>
+              <li><a href="https://www.apple.com/shop/buy-mac/macbook-air/15-inch-m2">Buy ></a></li>
+          </ul>
+          <img class="card-picture" src="1-3.jpg">
+        </div>
+      </div>
+      <div class="slider-container">
+        <div class="slider">
+            <img class="slider-image" src="tv2.png">
+            <img class="slider-image" src="Apples-keynote-event_zack-van-amburg-jamie-erlicht-apple-tv_032519.webp">
+            <img class="slider-image" src="maxresdefault.jpg">
+            <img class="slider-image" src="21bea95e-8606-41a0-9287-61f1f6cdd9f7_w1600_r1.7777777777777777_fpx51.75_fpy50.jpg">
+        </div>
+        <div class="arrow left">&#8249;</div>
+        <div class="arrow right">&#8250;</div>
+    </div>
+    <script>
+        const slider = document.querySelector('.slider');
+        const leftArrow = document.querySelector('.arrow.left');
+        const rightArrow = document.querySelector('.arrow.right');
+        const imageWidth = document.querySelector('.slider-image').offsetWidth;
+        let currentSlide = 0;
+        
+        leftArrow.addEventListener('click', function() {
+            if (currentSlide > 0) {
+                currentSlide--;
+                slider.style.transform = `translateX(-${currentSlide * imageWidth}px)`;
+            }
+        });
+        
+        rightArrow.addEventListener('click', function() {
+            if (currentSlide < slider.children.length - 1) {
+                currentSlide++;
+                slider.style.transform = `translateX(-${currentSlide * imageWidth}px)`;
+            }
+        });
+    </script>
+</body>
+</html>

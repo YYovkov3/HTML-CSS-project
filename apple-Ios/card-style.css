@@ -1,0 +1,36 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 1000px;
+    height: 800px;
+    margin: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.card-picture{
+    width: 900px;
+    height: 400px;
+    margin-top: 60px;
+}
+.card.a{
+    background: url(vision-pro.jpg);
+    background-size: cover;
+    color: white;
+}
+.card.b{
+    background: black;
+    color: white;
+}
+.watch{
+    color: red;
+    font-size: 20px;
+}
+.mac-picture-watch{
+    margin-top: 40px;
+    width: 800px;
+    height: 450px;
+}
